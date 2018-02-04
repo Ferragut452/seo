@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>new layout</title>
+  <meta name="description" content="Описание сайта" />
+  <meta name="keywords" content="ключевые слова" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,500" />
+  <!--[if lt IE 9]
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    ![endif]
+    -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top-line">
+      <div class="container top-line__container">
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Новости и акции</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Фотогалерея</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="top-line__right">
+          <ul class="lang">
+            <li><a href="#">UA</a><span>|</span></li>
+            <li class="active"><a href="#">RU</a><span>|</span></li>
+            <li><a href="#">EN</a></li>
+          </ul><span class="search"></span>
+          <div class="search__modal">
+            <div class="container modal-container">
+              <input type="text" placeholder="Поиск" class="search__input">
+              <button type="button" class="search__btn">Найти</button><span class="close"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header__top">
+        <div class="logo"><img src="./img/logo.png" alt="logo"></div>
+        <div class="phone"><span class="phone__hot">0 800 300 771 </span><span class="separator">|</span><span class="phone__mobile">(067) 353 56 94</span><a href="#" class="call-order">Заказать звонок</a></div>
+      </div>
+      <div class="header__catalog">
+        <ul>
+          <li class="catalog__item"><a href="#">Каталог техники</a>
+            <ul class="sub-catalog">
+              <li class="sub-item">
+                <h4>Строительная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Экскаваторы</a></li>
+                  <li><a href="#">Погрузчики</a></li>
+                  <li><a href="#">Самосвалы</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Подъемные краны</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Краны экскаваторы</a></li>
+                  <li><a href="#">Гусеничные краны</a></li>
+                  <li><a href="#"> Телескопические краны</a></li>
+                  <li><a href="#">Портовые краны</a></li>
+                  <li><a href="#">Электрические краны</a></li>
+                  <li><a href="#">Краны Senhebohen</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Дорожно-строительная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Грейдеры</a></li>
+                  <li><a href="#">Катки</a></li>
+                  <li><a href="#">Дорожные фрезы Volvo</a></li>
+                  <li><a href="#">Асфальтоукладчики Volvo</a></li>
+                  <li><a href="#">Выглаживающие плиты </a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Сельскохозяйственная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Телескопические погрузчики</a></li>
+                  <li><a href="#">Фронтальные погрузчики</a></li>
+                  <li><a href="#">Кормораздатчики</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Faresin</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Карьерная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Самосвалы с жесткой рамой</a></li>
+                  <li><a href="#">Шарнирно-сочлененные самосвалы</a></li>
+                  <li><a href="#">Экскаваторы</a></li>
+                  <li><a href="#">Бульдозеры</a></li>
+                  <li><a href="#">Фронтальные погрузчики</a></li>
+                  <li><a href="#">Автогрейдеры</a></li>
+                  <li><a href="#">Навесное оборудование</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Terex Trucks</a></li>
+                  <li><a href="#">Sennebogen</a></li>
+                  <li><a href="#">Faresin</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Тралы</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Goldhofer</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Бренды</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Volvo ce;</a></li>
+                  <li><a href="#">Terex trucks;</a></li>
+                  <li><a href="#">Sennebogen;</a></li>
+                  <li><a href="#">Faresin;</a></li>
+                  <li><a href="#">Goldhofer.</a></li>
+                  <li><a href="#">SDLG</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog__item"><a href="#">Техника по назначению</a>
+            <ul class="sub-catalog">
+              <li class="sub-item">
+                <h4>Речная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Лодки</a></li>
+                  <li><a href="#">Катера</a></li>
+                  <li><a href="#">Лодки</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Железные крабы</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Танки экскаваторы</a></li>
+                  <li><a href="#">Гусеничные грады</a></li>
+                  <li><a href="#"> Телескопические трубы</a></li>
+                  <li><a href="#">Портовые краны</a></li>
+                  <li><a href="#">Электрические скаты</a></li>
+                  <li><a href="#">Краны Senhebohen</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Мосто-строительная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Трейдеры</a></li>
+                  <li><a href="#">Мопеды</a></li>
+                  <li><a href="#">Дорожные фрезы Volvo</a></li>
+                  <li><a href="#">Асфальтоукладчики Volvo</a></li>
+                  <li><a href="#">Выглаживающие плиты </a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Сельскохозяйственная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Телескопические погрузчики</a></li>
+                  <li><a href="#">Фронтальные погрузчики</a></li>
+                  <li><a href="#">Кормораздатчики</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Faresin</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Карьерная техника</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Самосвалы с жесткой рамой</a></li>
+                  <li><a href="#">Шарнирно-сочлененные самосвалы</a></li>
+                  <li><a href="#">Экскаваторы</a></li>
+                  <li><a href="#">Бульдозеры</a></li>
+                  <li><a href="#">Фронтальные погрузчики</a></li>
+                  <li><a href="#">Автогрейдеры</a></li>
+                  <li><a href="#">Навесное оборудование</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Terex Trucks</a></li>
+                  <li><a href="#">Sennebogen</a></li>
+                  <li><a href="#">Faresin</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Тралы</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Goldhofer</a></li>
+                </ul>
+              </li>
+              <li class="sub-item">
+                <h4>Бренды</h4>
+                <ul class="sub-list">
+                  <li><a href="#">Volvo ce;</a></li>
+                  <li><a href="#">Terex trucks;</a></li>
+                  <li><a href="#">Sennebogen;</a></li>
+                  <li><a href="#">Faresin;</a></li>
+                  <li><a href="#">Goldhofer.</a></li>
+                  <li><a href="#">SDLG</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog__item"><a href="#">Техника с наработкой</a></li>
+          <li class="catalog__item"><a href="#">Шиномонтаж</a></li>
+          <li class="catalog__item"><a href="#">Operators club</a></li>
+          <li class="catalog__item"><a href="#">Сервис</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="main-slider">
+    <div class="container">
+      <div id="main-slider">
+        <div class="main-slider__item"><img src="img/sl1.jpg" alt="image">
+          <div class="main-slider__content">
+            <h2 class="main-slider__promo">Official dealer of Volvo in Ukraine</h2>
+            <h3 class="main-slider__heading">Сочлененные самосвалы</h3>
+            <p class="main-slider__descr">При выполнении карьерных, добывающих, земляных работ, при прокладке туннелей и переработке материалов и мусора, шарнирно сочлененный самосвал Volvo ежедневно сможет выполнить ваши транспортные задачи.</p><a href="#" class="main-slider__btn">Узнать больше</a>
+          </div>
+        </div>
+        <div class="main-slider__item"><img src="img/sl2.jpg" alt="image">
+          <div class="main-slider__content">
+            <h2 class="main-slider__promo">Official dealer of Volvo in Ukraine</h2>
+            <h3 class="main-slider__heading">Сочлененные самосвалы</h3>
+            <p class="main-slider__descr">При выполнении карьерных, добывающих, земляных работ, при прокладке туннелей и переработке материалов и мусора, шарнирно сочлененный самосвал Volvo ежедневно сможет выполнить ваши транспортные задачи.</p><a href="#" class="main-slider__btn">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="container">
+    <section class="promo-catalog">
+      <ul class="promo-catalog__list">
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Volvo</h3><img src="img/slide1.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Sennebogen</h3><img src="img/slide2.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Goodyear</h3><img src="img/slide3.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Solg</h3><img src="img/slide4.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Faresin</h3><img src="img/slide5.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+        <li class="promo-catalog__item">
+          <a href="#">
+            <h3>Goldhofer</h3><img src="img/slide6.png" alt="image">
+            <ul class="promo-catalog__sublist">
+              <li><a href="#">Сочлененные самосвалы</a></li>
+              <li><a href="#">Погрузчики</a></li>
+              <li><a href="#">Экскаваторы</a></li>
+              <li><a href="#">Асфальтоукладчики</a></li>
+              <li><a href="#">Экскаваторы-погрузчики</a></li>
+              <li><a href="#">Самоходные грейдеры</a></li>
+              <li><a href="#">Колесная дорожная фреза</a></li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="banner">
+      <div class="banner__descr">
+        <h3 class="banner__title">Unique price offer</h3>
+        <p class="banner__text">при покупке комплекса для дорожного строительства</p><a href="#" class="banner__more">Узнать больше</a>
+        <p class="banner__phone">Подробности по телефону: 0 800 300 771, +38 067 353 56 94.</p>
+      </div>
+    </section>
+    <section class="promo-slider">
+      <h2 class="promo-slider__title">Range of machinery Volvo</h2>
+      <div id="promo-slider">
+        <div class="promo-slider__item"><img src="img/slider1.png" alt="image"><a href="#" class="promo-slider__heading">Сочлененные самосвалы</a></div>
+        <div class="promo-slider__item"><img src="img/slider2.png" alt="image"><a href="#" class="promo-slider__heading">Асфальтоукладчики</a></div>
+        <div class="promo-slider__item"><img src="img/slider3.png" alt="image"><a href="#" class="promo-slider__heading">Катки</a></div>
+        <div class="promo-slider__item"><img src="img/slider4.png" alt="image"><a href="#" class="promo-slider__heading">Экскаваторы</a></div>
+        <div class="promo-slider__item"><img src="img/slider1.png" alt="image"><a href="#" class="promo-slider__heading">Сочлененные самосвалы</a></div>
+        <div class="promo-slider__item"><img src="img/slider2.png" alt="image"><a href="#" class="promo-slider__heading">Асфальтоукладчики</a></div>
+        <div class="promo-slider__item"><img src="img/slider3.png" alt="image"><a href="#" class="promo-slider__heading">Катки</a></div>
+        <div class="promo-slider__item"><img src="img/slider4.png" alt="image"><a href="#" class="promo-slider__heading">Экскаваторы</a></div>
+      </div>
+    </section>
+    <section class="news">
+      <h2 class="news__heading">Last news</h2>
+      <div class="news__items">
+        <div class="news__item"><img src="img/news2.jpg" alt="news">
+          <h3>VOLVO SERVICES - УМНЫЕ ИНЖЕНЕРНЫЕ РЕШЕНИЯ ПЛЮС РЕШЕНИЯ ДЛЯ БИЗНЕСА</h3><span>03/11/2017</span>
+          <p>Volvo Construction Equipment реализует новый подход к представлению своего широкого ассортимента услуг и решений.</p>
+        </div>
+        <div class="news__item"><img src="img/news1.jpg" alt="news">
+          <h3>В УКРАИНЕ ОТКРЫЛСЯ КЛУБ ОПЕРАТОРОВ ДОРОЖНО-СТРОИТЕЛЬНОЙ ТЕХНИКИ</h3><span>14/06/2017</span>
+          <p>В Украине открылся Клуб Операторов – соревнование операторов дорожно-строительной техники, которое ежегодно проводится…</p>
+        </div>
+      </div>
+      <div class="news__more"><a href="#">Посмотреть все новости</a></div>
+    </section>
+    <section class="features">
+      <h2>Main benefits ETS</h2>
+      <p class="features__descr">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинский набор слов, но это не совсем так. Его корни уходят в один фрагмент.</p>
+      <div class="features__items">
+        <div class="features__item"><span>475</span><span>Feature 1</span></div>
+        <div class="features__item"><span>251</span><span>Feature 2</span></div>
+        <div class="features__item"><span>782</span><span>Feature 3</span></div>
+        <div class="features__item"><span>374</span><span>Feature 4</span></div>
+      </div>
+    </section>
+    <section class="info">
+      <h2>Made VOLVO for cars VOLVO</h2>
+      <p>Volvo понимает, что новая машина - не всегда идеальное решение для бизнеса конкретного клиента. Наши услуги восстановления техники дают клиентам Volvo широкие возможности выбора решений для восстановления идеального технического состояния машин
+        Volvo - от восстановленных на заводе комплектующих до капитального ремонта всей машины и гибких пакетных предложений. Давая технике Volvo заслуженную новую жизнь, услуги восстановления Volvo оптимизируют долгосрочную эффективность ваших инвестиций
+        и общую стоимость владения.</p>
+      <p>Оригинальные запчасти Volvo проходят всесторонние испытания и сертификацию, чтобы гарантировать высокую производительность и эксплуатационную готовность машин. Большой выбор имеющихся в наличии запчастей, обеспеченных гарантией Volvo, помогает клиентам
+        защитить свои инвестиции в технику, продлить срок службы машин и гарантировать длительное сохранение высокой производительности.</p>
+      <p>Широкий ассортимент навесного оборудования Volvo позволяет каждому клиенту выбрать наиболее подходящий вариант для эффективной работы машин. Все части машины важны; навесное оборудование Volvo, специально разработанное для техники Volvo, образует
+        с ней единый безопасный и надежный механизм с высокой скоростью работы, высокой топливной экономичностью и низкой стоимостью владения.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__col">
+          <h3>Call center</h3>
+          <ul>
+            <li>0 800 300 771</li>
+            <li>(067) 353 56 94</li>
+          </ul>
+        </li>
+        <li class="footer__col">
+          <h3>О компании ETS</h3>
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Новости и акции</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </li>
+        <li class="footer__col">
+          <h3>Каталог</h3>
+          <ul>
+            <li><a href="#">Каталог техники</a></li>
+            <li><a href="#">Техника по назначению</a></li>
+            <li><a href="#">Техника с наработкой</a></li>
+            <li><a href="#">Бренды</a></li>
+          </ul>
+        </li>
+        <li class="footer__col">
+          <h3>Услуги</h3>
+          <ul>
+            <li><a href="#">Шиномонтаж</a></li>
+            <li><a href="#">Operators club</a></li>
+            <li><a href="#">Сервис</a></li>
+            <li><a href="#">Фотогалерея</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer__bottom">
+        <div class="copyright">
+          <p>© Copyright ETS-Group.com.ua 2017</p>
+        </div>
+        <div class="logo-bottom"><img src="./img/logo_bottom.png" alt="logo"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/js.min.js" type="text/javascript"></script>
+</body>
+
+</html>
